@@ -1,113 +1,183 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Chaima JAZIRI</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chaima Jaziri</title>
+<meta name="description" content="Chaima Jaziri, Senior Applied AI Engineer building production LLM and agentic systems.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<script>
+  // set theme before paint to avoid a flash
+  try { const t = localStorage.getItem('theme'); if (t) document.documentElement.dataset.theme = t; } catch (e) {}
+</script>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+  <aside>
+    <div class="brand">
+      <span>💾</span><a href="#top">chaimajaziri.com</a>
+      <span class="dot"></span>
+      <button id="theme" aria-label="Toggle dark mode">☀︎</button>
+    </div>
+    <p class="intro">I'm <a href="#about">Chaima</a>, an applied AI engineer building agentic systems that hold up in production. 🌱</p>
+    <nav>
+      <a href="blog.html"><span>📝</span>Blog</a>
+      <a href="#experience"><span>🧭</span>Experience</a>
+      <a href="#projects"><span>🛠️</span>Projects</a>
+      <a href="#skills"><span>🔍</span>Skills</a>
+      <a href="#certs"><span>📜</span>Certifications</a>
+      <a href="#about"><span>💾</span>About me</a>
+    </nav>
+    <div class="socials">
+      <a href="mailto:Chaimajaziri18@gmail.com">Email</a>
+      <a href="https://github.com/Chaima-Ja" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/chaima-jaziri" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="Resume_ChaimaJaziri.pdf">Resume</a>
+    </div>
+  </aside>
 
-	<body class="is-preload">
-		<!-- Wrapper -->
-			<div id="wrapper">
-				<!-- Main -->
-					<div id="main">
-						<div class="inner">
-							<!-- Header -->
-								<header id="header">
-									<ul class="icons">
-										<li><a href="https://www.linkedin.com/in/chaima-jaziri/" class="icon brands fab fa-linkedin" ><span class="label">linkedin</span></a></li>
-										<li><a href="https://github.com/Chaima-Ja" class="icon brands fab fa-github" target="_blank" rel="noopener noreferrer"><span class="label">Github</span></a></li>
-										<li><a href="mailto:chaimajaziri18@email.com" class="icon regular far fa-envelope" target="_blank" rel="noopener noreferrer"><span class="label">Email</span></a></li>
-										<li><a href="https://leetcode.com/chaima_jaziri/" class="icon solid fas fa-puzzle-piece" target="_blank" rel="noopener noreferrer"><span class="label">leetcode</span></a></li>
-									</ul>
-								</header>
-								
+  <main id="top">
+    <section class="hero">
+      <div>
+        <h1>Hey, I'm Chaima!</h1>
+        <p class="sub">Senior Applied AI Engineer, agent builder, evaluation nerd.</p>
+        <h3>A brief timeline</h3>
+        <ul class="timeline">
+          <li><span class="mono">→ 2022</span><span><a href="#education">Engineering diploma</a>: Applied Computer Science at the National Engineering School of Sousse, Tunisia.</span></li>
+          <li><span class="mono">2022–2023</span><span><a href="#experience">MLOps engineer</a>: production ML infrastructure, automated retraining and drift detection for SaaS recommenders.</span></li>
+          <li><span class="mono">2023–2024</span><span><a href="#experience">AI engineer</a>: production NLP that took document classification from 74% to 91%.</span></li>
+          <li><span class="mono">2024–2026</span><span><a href="#education">MASc at Concordia</a> (4.23/4.3), agentic AI at <a href="#experience">Ericsson</a>, and an end-to-end RAG product at Beyond Camino.</span></li>
+          <li><span class="mono">2026–now</span><span><a href="#experience">Senior Applied AI Engineer</a> at Ampliwork: agents for a Fortune 500 enterprise, mapping accuracy <b>79% → 94%</b>.</span></li>
+        </ul>
+        <p class="also"><a href="#certs">Also</a>: Azure AI Engineer certified, bilingual English/French, based in Montreal.</p>
+      </div>
+      <div class="portrait">
+        <img src="images/myimage2.jpeg" alt="Portrait of Chaima Jaziri">
+        <p>Want the one-pager? Grab my <a href="Resume_ChaimaJaziri.pdf">résumé</a>!</p>
+      </div>
+    </section>
 
-							<!-- Banner -->
-								<section id="banner">
-									<div class="content">
-										<header>
-											<h1>Hi, My name is Chaima Jaziri<br />
-											</h1>
-											<p><b>A Machine Learning Engineer </b> </p>
-										</header>
-										<p>I am a forward-thinking AI engineer with a solid academic foundation from the National School of Engineers of Sousse in Tunisia and currently pursuing an M.Sc. in Software Engineering at Concordia University</p> 
-										<p>
+    <section id="latest">
+      <h2>Latest <a class="pill" href="blog.html">All Posts</a></h2>
+      <ul class="posts" data-posts="latest"></ul>
+    </section>
 
-											My expertise lies in artificial intelligence, Large language Models (LLMs) and Software Engineering. I’ve honed my skills through hands-on experience in diverse machine learning projects, tackling complex challenges and delivering impactful solutions.
-										</p>
-										<p> A lifelong learner, I am constantly working on agentic solutions and LLMs technologies and advancing my knowledge through academic research, personal initiatives, and collaborative projects.
-											
-											I am driven by a passion for creating intelligent systems that solve real-world problems and transform industries. 
-											
-										</p>
-										I am always seeking opportunities to channel my technical expertise and innovative mindset into meaningful projects that push the boundaries of AI and software engineering.</p>
-										<ul class="actions">
-											<li><a href="contact.html" class="button big">Contact Me</a></li>
-										</ul>
-									</div>
-									<span class="image object">
-										<img src="images/myimage2.jpeg" alt="" />
-									</span>
-								</section>
+    <section id="experience">
+      <h2>Experience</h2>
+      <p class="lede">Where I've shipped things. Click a role for details.</p>
+      <ul class="posts">
+        <li><span class="icon">🤖</span>
+          <details><summary><h3>Senior Applied AI Engineer · Ampliwork</h3><span class="mono">2026 – Present · Montreal</span></summary>
+            <ul>
+              <li>Lead end-to-end development of production agentic AI for a Fortune 500 enterprise, from discovery and prototyping to deployment.</li>
+              <li>Architect document Cataloging and Transformation Mapping agents with tool use, human review and structured outputs.</li>
+              <li>Built evaluation and benchmarking on real customer workflows, raising mapping accuracy from ~79% to 94%.</li>
+              <li>Turn production failures and customer feedback into fixes, regression scenarios and product requirements.</li>
+            </ul></details>
+          <div class="tags"><span>agents</span><span>evaluation</span><span>hitl</span></div></li>
+        <li><span class="icon">📡</span>
+          <details><summary><h3>AI Engineer Intern · Ericsson / Aduna Global</h3><span class="mono">May 2025 – May 2026 · Montreal</span></summary>
+            <ul>
+              <li>Designed multi-agent architectures with LangGraph and LangSmith for reliable multi-step enterprise workflows.</li>
+              <li>Delivered a production PoC that cut task turnaround by 40% and manual intervention by 30%.</li>
+              <li>Built LoRA fine-tuning pipelines on Azure ML with automated experimentation, deployment and monitoring.</li>
+              <li>Ran workshops and wrote playbooks on agentic AI, LangSmith evaluation and responsible AI.</li>
+            </ul></details>
+          <div class="tags"><span>langgraph</span><span>langsmith</span><span>lora</span></div></li>
+        <li><span class="icon">🧭</span>
+          <details><summary><h3>Full-Stack AI Engineer · Beyond Camino</h3><span class="mono">Nov 2024 – Aug 2026 · Remote</span></summary>
+            <ul>
+              <li>Built an end-to-end AI product combining a web experience with AI assistants and RAG.</li>
+              <li>Cut latency 35% with caching, async processing and streaming.</li>
+              <li>Set up containerized deployment pipelines for reliable production releases.</li>
+            </ul></details>
+          <div class="tags"><span>rag</span><span>full-stack</span><span>streaming</span></div></li>
+        <li><span class="icon">📄</span>
+          <details><summary><h3>AI Engineer · SBAT</h3><span class="mono">Feb 2023 – June 2024 · Montreal</span></summary>
+            <ul>
+              <li>Production NLP that raised document classification accuracy from 74% to 91%.</li>
+              <li>Reproducible MLflow experimentation across 30+ model iterations.</li>
+              <li>Productionized ML services with FastAPI, CI/CD and monitoring.</li>
+            </ul></details>
+          <div class="tags"><span>nlp</span><span>mlflow</span><span>fastapi</span></div></li>
+        <li><span class="icon">⚙️</span>
+          <details><summary><h3>MLOps Engineer · Whitecape Technologie</h3><span class="mono">Jan 2022 – Mar 2023 · Tunisia</span></summary>
+            <ul>
+              <li>Built and operated ML infrastructure for SaaS recommendation systems.</li>
+              <li>Designed automated retraining workflows and deployment strategies.</li>
+              <li>Introduced observability, monitoring and data-drift detection.</li>
+            </ul></details>
+          <div class="tags"><span>mlops</span><span>ci-cd</span><span>monitoring</span></div></li>
+      </ul>
+    </section>
 
+    <section id="projects">
+      <h2>🛠️ Projects</h2>
+      <p class="lede">Research and side projects I've built over the years.</p>
+      <div class="cards">
+        <article class="card"><span class="mono">Thesis</span><h3>Co-DynaDev</h3>
+          <p>A dynamic multi-agent assistant for automated software development. Memory and context strategies improved task completion by 31%, cut hallucinations by 27%, and hit 99%+ passing tests.</p></article>
+        <article class="card"><span class="mono">Security</span><h3>Guardian MCP Guardrails</h3>
+          <p>An enterprise MCP security gateway: fine-tuned LLM checks, rule-based verification, DLP and ABAC, plugged into Claude Desktop and GitHub Copilot.</p></article>
+        <article class="card"><span class="mono">RAG</span><h3>Document Retrieval</h3>
+          <p>Dense vector search with a pre-trained LLM that returns the relevant section, not a keyword match. 90% retrieval accuracy.</p></article>
+        <article class="card"><span class="mono">MLOps</span><h3>Fraud Detection</h3>
+          <p>XGBoost and Random Forest models shipped through GitHub Actions and Docker to Azure, with a real-time API and monitoring.</p></article>
+      </div>
+    </section>
 
-							
+    <section id="skills">
+      <h2>Skills</h2>
+      <p class="lede">What I reach for, grouped like a bookshelf.</p>
+      <div class="cards">
+        <div class="card shelf"><h3>Agentic AI &amp; GenAI <span class="count">8</span></h3>
+          <p>LangGraph, MCP, A2A, ADK, RAG, multi-agent systems, tool calling, human-in-the-loop, guardrails.</p></div>
+        <div class="card shelf"><h3>Evaluation &amp; reliability <span class="count">6</span></h3>
+          <p>LLM and agent evaluation, failure analysis, benchmarking, regression testing, LangSmith, MLflow.</p></div>
+        <div class="card shelf"><h3>Engineering <span class="count">7</span></h3>
+          <p>Python, TypeScript, Java, SQL, FastAPI, microservices, OAuth 2.0 / OIDC / Azure AD.</p></div>
+        <div class="card shelf"><h3>Cloud, data &amp; ops <span class="count">9</span></h3>
+          <p>Azure, AWS, Docker, Kubernetes, GitHub Actions, PostgreSQL, Redis, Pinecone, Kafka, Prometheus, Grafana, Datadog.</p></div>
+      </div>
+    </section>
 
-						</div>
-					</div>
+    <section id="certs">
+      <h2>Certifications</h2>
+      <p class="lede">Paper trail.</p>
+      <ul class="series">
+        <li><span>☁️</span><div><h3>Microsoft Certified: Azure AI Engineer Associate (AI-102)</h3><p>Building and deploying AI solutions on Azure.</p></div></li>
+        <li><span>📘</span><div><h3>IBM Machine Learning Professional Certificate</h3><p>End-to-end ML from model development to production.</p></div></li>
+        <li><span>⏳</span><div><h3>AWS Certified Generative AI Developer, Professional</h3><p>In progress: Bedrock, RAG and production GenAI architectures.</p></div></li>
+      </ul>
+    </section>
 
-				<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+    <section id="about">
+      <h2>💾 About me</h2>
+      <div class="about">
+        <div>
+          <p>Hey, I'm Chaima! I'm a Senior Applied AI Engineer at Ampliwork in Montreal, where I build agentic systems for enterprise workflows.</p>
+          <p style="margin-top:16px">I take AI products from an ambiguous request to something people trust in production. Most of my time goes into the parts demos skip: evaluation, failure analysis, human-in-the-loop design, and turning real user feedback into measurable improvements.</p>
+        </div>
+        <img src="images/myimage2.jpeg" alt="Chaima Jaziri">
+      </div>
+      <h3 id="education" style="margin:24px 0 10px">Education</h3>
+      <ul class="series">
+        <li><span>🎓</span><div><h3>MASc, Software Engineering, Concordia University</h3><p>CGPA 4.23/4.3 · Generative AI, Deployment of AI Systems, Social Ethics of AI.</p></div></li>
+        <li><span>🏛️</span><div><h3>Engineering Diploma, National Engineering School of Sousse</h3><p>Applied Computer Science · CGPA 16.83/20.</p></div></li>
+      </ul>
+      <h3 style="margin:24px 0 10px">Contact</h3>
+      <p>Send me an email to say hi, or find me on <a href="https://www.linkedin.com/in/chaima-jaziri" target="_blank" rel="noreferrer">LinkedIn</a> and <a href="https://github.com/Chaima-Ja" target="_blank" rel="noreferrer">GitHub</a>: <a href="mailto:Chaimajaziri18@gmail.com">Chaimajaziri18@gmail.com</a></p>
+    </section>
 
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index.html">Homepage</a></li>
-										<li><a href="About.html">About</a></li>
-										<li><a href="services.html">Services</a></li>
-										<li><a href="Achievements.html">Achievements</a></li>
-										<li><a href="projects.html">Projects</a></li>
-										<li><a href="contact.html">Contact</a></li>
-									</ul>
-								</nav>
-
-						
-
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-
-									<p>Thank you for exploring my portfolio! I'm passionate about creating meaningful and impactful work, and I would love to collaborate with you on your next project.</p>  
-									<p>Whether you're looking for creative solutions, or just want to connect and chat about the exciting possibilities ahead, I invite you to get in touch.</p> 
-									<p>Feel free to reach out via the contact form below, and let's start a conversation that leads to something amazing. I look forward to hearing from you!</p>
-								
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">Chaima.Jaziri@mail.concordia.ca</a></li>
-							<li class="icon solid fa-home">Montreal, Canada</li>
-									</ul>
-								</section>
-
-							
-
-						</div>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <footer>
+      <span>Made with ♥ by Chaima Jaziri · Montreal</span>
+      <a href="#top">↑ Back to top</a>
+    </footer>
+  </main>
+</div>
+<script src="site.js"></script>
+</body>
 </html>
